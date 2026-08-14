@@ -89,7 +89,7 @@ def seed_if_empty():
     count = conn.execute("SELECT COUNT(*) FROM alerts").fetchone()[0]
     conn.close()
     if count == 0:
-        from scripts import seed_engine          # lazy: avoids circular ref
+        from app import seed_engine          # lazy: avoids circular ref
         seed_engine.run()
 
 
