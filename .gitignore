@@ -26,3 +26,15 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# backend — python
+__pycache__/
+.venv/
+*.pyc
+
+# backend — generated / runtime
+back-end/parakh.db
+back-end/models/
+
+# goal tracking (AGENTS.md)
+Goals/*
