@@ -38,3 +38,4 @@ back-end/models/
 
 # goal tracking (AGENTS.md)
 Goals/*
+back-end/Goals/*
